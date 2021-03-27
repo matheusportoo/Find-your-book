@@ -1,0 +1,714 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 480,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "CQVyDwAAQBAJ",
+      "etag": "tfxZRBt0YtY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/CQVyDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Filosofia Da Computação",
+        "authors": ["Thiago"],
+        "publisher": "Clube de Autores (managed)",
+        "description": "Este é o livro que, junto com a Teoria Geral da insciência, onde expusemos a Filosofia Algorítmica e a Teoria da Complexidade Filosófica, fundamenta a primeira sistematização séria de uma Filosofia da Computação, tratando de questões filosófica inéditas na história da filosofia, que surgiram a partir do estudo da ciência da computação, englobando toda a Filosofia como uma Filosofia da Ciência da Computação. Esta obra marca o nascimento da Filosofia da Computação. Seu valor histórico provém não somente por ser o primeiro livro da história da filosofia a sistematizar uma Filosofia da Computação, mas também por sua revolucionária ideografia ou sistema formal de linguagem ideal que permite ao ser humano usar o computador para filosofar e ao computador fazer “filosofia”.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:CLDEAU27174"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 125,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.11.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=CQVyDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=CQVyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=CQVyDwAAQBAJ&pg=PA13&dq=computacao&hl=&as_pt=BOOKS&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=CQVyDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=CQVyDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 51.89,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 51.89,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=CQVyDwAAQBAJ&rdid=book-CQVyDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 51890000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 51890000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Filosofia_Da_Computa%C3%A7%C3%A3o-sample-pdf.acsm?id=CQVyDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=CQVyDwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Filosofia da \u003cb\u003eComputação\u003c/b\u003e O que é a Filosofia da \u003cb\u003eComputação\u003c/b\u003e? A Filosofia da \u003cbr\u003e\n\u003cb\u003eComputação\u003c/b\u003e é o ramo da filosofia que busca uma solução para um problema \u003cbr\u003e\nfilosófico a partir de entradas (inputs) ou perguntas e tem seus resultados (\u003cbr\u003e\noutputs) ou&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "_9djAAAAMAAJ",
+      "etag": "7NITGKF4H74",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/_9djAAAAMAAJ",
+      "volumeInfo": {
+        "title": "Pesquisa fundamental e pós-graduação, área de ciência da computação",
+        "authors": [
+          "Plano Básico de Desenvolvimento Científico e Tecnológico (Brazil)"
+        ],
+        "publishedDate": "1974",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UTEXAS:059173023622580"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 58,
+        "printType": "BOOK",
+        "categories": ["Computer engineering"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=_9djAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=_9djAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=_9djAAAAMAAJ&q=computacao&dq=computacao&hl=&as_pt=BOOKS&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=_9djAAAAMAAJ&dq=computacao&hl=&as_pt=BOOKS&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Pesquisa_fundamental_e_p%C3%B3s_gradua%C3%A7%C3%A3o.html?hl=&id=_9djAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=_9djAAAAMAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Na USP as atividades de \u003cb\u003ecomputação\u003c/b\u003e se desenvolveram parte nos centros de \u003cbr\u003e\n\u003cb\u003ecomputação\u003c/b\u003e de diversas unidades e parte nos laboratórios de Eletrônica - da \u003cbr\u003e\nEPUSP e do Instituto de Física . Ainda hoje , na USP , não há um órgão à parte&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "JPpcAAAAMAAJ",
+      "etag": "B4IhteVExQk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/JPpcAAAAMAAJ",
+      "volumeInfo": {
+        "title": "XI Congresso Nacional da Sociedade Brasileira de Computação",
+        "subtitle": "05 a 09 de agosto de 1991, Mendes Plaza Hotel, Santos, SP.",
+        "authors": ["Sociedade Brasileira de Computação. Congresso"],
+        "publishedDate": "1991",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UTEXAS:059172131614929"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "categories": ["Computer software"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=JPpcAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=JPpcAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=JPpcAAAAMAAJ&q=computacao&dq=computacao&hl=&as_pt=BOOKS&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=JPpcAAAAMAAJ&dq=computacao&hl=&as_pt=BOOKS&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/XI_Congresso_Nacional_da_Sociedade_Brasi.html?hl=&id=JPpcAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=JPpcAAAAMAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "JORNADA DE ATUALIZAÇÃO EM INFORMÁTICA SOCIEDADE BRASILEIRA DE \u003cbr\u003e\n\u003cb\u003eCOMPUTAÇÃO\u003c/b\u003e ARQUITETURA DE SISTEMAS AVANÇADOS DE \u003cbr\u003e\n\u003cb\u003eCOMPUTAÇÃO\u003c/b\u003e CLAUDIO KIRNER DEPARTAMENTO DE \u003cb\u003eCOMPUTAÇÃO\u003c/b\u003e \u003cbr\u003e\nPROGRAMA DE&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "YXMGrSnB8AAC",
+      "etag": "fT6538o6b1k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YXMGrSnB8AAC",
+      "volumeInfo": {
+        "title": "Introdução à Álgebra com aplicações à Ciência da Computação",
+        "publisher": "UFAL",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8571770581"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788571770584"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YXMGrSnB8AAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YXMGrSnB8AAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=YXMGrSnB8AAC&pg=PA186&dq=computacao&hl=&as_pt=BOOKS&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=YXMGrSnB8AAC&dq=computacao&hl=&as_pt=BOOKS&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Introdu%C3%A7%C3%A3o_%C3%A0_%C3%81lgebra_com_aplica%C3%A7%C3%B5e.html?hl=&id=YXMGrSnB8AAC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YXMGrSnB8AAC&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Em 1988, quando da implantação do Curso de Ciência da \u003cb\u003eComputação\u003c/b\u003e na \u003cbr\u003e\nUniversidade Federal de Alagoas, passou a se interessar por Lógica de Progra \u003cbr\u003e\nnação e por Matemática Computacional que, atualmente, são as áreas de seu&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "GhtkAAAAMAAJ",
+      "etag": "R5MN5IJ58EA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/GhtkAAAAMAAJ",
+      "volumeInfo": {
+        "title": "Fundamentos de computação analógica",
+        "publishedDate": "1969",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UTEXAS:059173023622591"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 70,
+        "printType": "BOOK",
+        "categories": ["Electronic analog computers"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "3.1.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=GhtkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=GhtkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=GhtkAAAAMAAJ&q=computacao&dq=computacao&hl=&as_pt=BOOKS&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=GhtkAAAAMAAJ&dq=computacao&hl=&as_pt=BOOKS&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Fundamentos_de_computa%C3%A7%C3%A3o_anal%C3%B3gica.html?hl=&id=GhtkAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=GhtkAAAAMAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "FUNDAMENTOS DE \u003cb\u003eCOMPUTAÇÃO\u003c/b\u003e ANALÓGICA Observação Introdutória \u003cbr\u003e\nNestas notas são apresentr.dos os fundamentos de \u003cb\u003eComputação\u003c/b\u003e Analógica e as \u003cbr\u003e\ninstzuções para uso do Modelo Lonner 3400 . Elas foram redigidas pela primeira\u003cbr\u003e\n&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "mP5UAAAAYAAJ",
+      "etag": "NLmiOy9TZ58",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/mP5UAAAAYAAJ",
+      "volumeInfo": {
+        "title": "Aspectos teóricos da computação",
+        "authors": ["Cláudio L. Lucchesi"],
+        "publishedDate": "1979",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "CORNELL:31924052730011"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 292,
+        "printType": "BOOK",
+        "categories": ["Algorithms"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=mP5UAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=mP5UAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=mP5UAAAAYAAJ&q=computacao&dq=computacao&hl=&as_pt=BOOKS&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=mP5UAAAAYAAJ&dq=computacao&hl=&as_pt=BOOKS&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Aspectos_te%C3%B3ricos_da_computa%C3%A7%C3%A3o.html?hl=&id=mP5UAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=mP5UAAAAYAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "de matemática como de \u003cb\u003ecomputação\u003c/b\u003e . Para os matemáticos , o texto pode servir \u003cbr\u003e\ncomo uma introdução à Teoria da \u003cb\u003eComputação\u003c/b\u003e , permitindo inclusive uma \u003cbr\u003e\ncompreensão de alguns problemas abertos desta área relativamente recente ."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "kQNyDwAAQBAJ",
+      "etag": "yRE6DYm38ss",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/kQNyDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Segurança Em Cloud Computing",
+        "authors": ["Turma"],
+        "publisher": "Clube de Autores (managed)",
+        "description": "Este é um trabalho sobre segurança em Cloud Computing, desenvolvido pelos alunos da turma de MBA - Data Center_02 da faculdade Impacta de São Paulo. Os autores deste conteúdo são Eduardo Popovici, Jonatas William Rodrigues Calhado da Silva, Oséas de Oliveira Nascimento, Gabriel Dias Araujo, Danilo Oliveira, Reynaldo Mazzante, Rodrigo Brasil, Marcos Baldini, Henrique Fontenelle Alvarenga Santos, Maycon Henrique dos Santos e Lucas Andrade.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:CLDEAU27000"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 57,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.11.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=kQNyDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=kQNyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=kQNyDwAAQBAJ&pg=PA23&dq=computacao&hl=&as_pt=BOOKS&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=kQNyDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=kQNyDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 62.28,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 62.28,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=kQNyDwAAQBAJ&rdid=book-kQNyDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 62280000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 62280000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Seguran%C3%A7a_Em_Cloud_Computing-sample-pdf.acsm?id=kQNyDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=kQNyDwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "40404040 \u003cb\u003eComputação\u003c/b\u003e Móvel \u003cb\u003eComputação\u003c/b\u003e Móvel \u003cb\u003eComputação\u003c/b\u003e Móvel \u003cbr\u003e\n\u003cb\u003eComputação\u003c/b\u003e Móvel Ao utilizar \u003cb\u003ecomputação\u003c/b\u003e móvel convém que os riscos de \u003cbr\u003e\ntrabalhar em um ambiente desprotegido sejam considerados e a proteção \u003cbr\u003e\nadequada seja&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "27WSgzfQiHsC",
+      "etag": "507TuK3Vvi0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/27WSgzfQiHsC",
+      "volumeInfo": {
+        "title": "Introdução À Ciência da Computação Com Jogos",
+        "authors": [
+          "Bruno Feijó",
+          "Flávio Soares Corrêa da Silva",
+          "Esteban Clua"
+        ],
+        "publisher": "Elsevier",
+        "publishedDate": "2009",
+        "description": "Mais que apresentar ao aluno uma primeira disciplina de programação de computadores, este livro traze um Game Engine desenvolvido para estimular o aluno a programar com o objetivo de desenvolver sua aplicação. Na primeira parte, a obra apresenta os conceitos básicos de programação necessários aos alunos de Ciência da Computação, Engenharia de Software e tecnológicos em TIC. Depois é introduzido o conceito de Game Engine e sua utilização. Na última parte, o livro guia o aluno no desenvolvimento de seu próprio game.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788535234190"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8535234195"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 288,
+        "printType": "BOOK",
+        "categories": ["Computer games"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=27WSgzfQiHsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=27WSgzfQiHsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt-BR",
+        "previewLink": "http://books.google.com.br/books?id=27WSgzfQiHsC&pg=PA5&dq=computacao&hl=&as_pt=BOOKS&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=27WSgzfQiHsC&dq=computacao&hl=&as_pt=BOOKS&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Introdu%C3%A7%C3%A3o_%C3%80_Ci%C3%AAncia_da_Computa%C3%A7%C3%A3o.html?hl=&id=27WSgzfQiHsC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=27WSgzfQiHsC&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "(esse tipo de problema está dentro de uma área da \u003cb\u003ecomputação\u003c/b\u003e chamada \u003cbr\u003e\nInteligência Artificial). Uma vez desenvolvido um algoritmo, este pode ser \u003cbr\u003e\nguardado numa biblioteca, de forma a poder ser reutilizado quando queiramos. \u003cbr\u003e\nMais ainda:&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "kf9cAAAAMAAJ",
+      "etag": "+TRDyLisoTg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/kf9cAAAAMAAJ",
+      "volumeInfo": {
+        "title": "Introdução a micro-computação",
+        "authors": ["Antonio Celso Pares Vita"],
+        "publishedDate": "1994",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UTEXAS:059173001322630"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 69,
+        "printType": "BOOK",
+        "categories": ["Microcomputers"],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.3.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=kf9cAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=kf9cAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=kf9cAAAAMAAJ&q=computacao&dq=computacao&hl=&as_pt=BOOKS&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=kf9cAAAAMAAJ&dq=computacao&hl=&as_pt=BOOKS&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Introdu%C3%A7%C3%A3o_a_micro_computa%C3%A7%C3%A3o.html?hl=&id=kf9cAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=kf9cAAAAMAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "qkAPEAAAQBAJ",
+      "etag": "BRZPRlASUIg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/qkAPEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Livro 23 Computação E Notas Aleatórias",
+        "authors": ["Kaicon Ricardo"],
+        "publisher": "Clube de Autores",
+        "publishedDate": "2020-12-09",
+        "description": "ideias",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:CLDEAU54971"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": ["Mathematics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=qkAPEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=qkAPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt-BR",
+        "previewLink": "http://books.google.com.br/books?id=qkAPEAAAQBAJ&pg=PA7&dq=computacao&hl=&as_pt=BOOKS&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=qkAPEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qkAPEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 10.34,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 10.34,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=qkAPEAAAQBAJ&rdid=book-qkAPEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 10340000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 10340000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Livro_23_Computa%C3%A7%C3%A3o_E_Notas_Aleat%C3%B3ria-sample-pdf.acsm?id=qkAPEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=qkAPEAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "7 Uma forma de se implementar conceitos de \u003cb\u003ecomputacao\u003c/b\u003e seria se pesquisar \u003cbr\u003e\nvariadas instrucoes de processamento grafico cudacores,antialiasing,V- sinc ,\u003cbr\u003e\nfiltragem anisotropica,texturas e então desenhar sistemas que simulem o uso \u003cbr\u003e\ndestes."
+      }
+    }
+  ]
+}
