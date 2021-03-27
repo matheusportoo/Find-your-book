@@ -10,7 +10,6 @@ import * as S from './style';
 
 const Home = () => (
   <>
-    {console.log(response)}
     <Header title="Encontre seu livro" />
     <Content>
       <MainSearch />
