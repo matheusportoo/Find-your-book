@@ -1,11 +1,11 @@
-import * as Style from './style/global';
+import * as S from './style/global';
 import * as Routes from './routes';
 
 const App = () => {
   return (
     <>
       <Routes.Pages />
-      <Style.GlobalStyle />
+      <S.GlobalStyle />
     </>
   );
 };
