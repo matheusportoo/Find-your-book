@@ -18,13 +18,22 @@ export const ListingBooks = styled.div`
 
 ListingBooks.Link = styled(Link)`
   text-decoration: none;
+
+  &:focus {
+    outline: none;
+  }
 `;
+
 ListingBooks.Title = styled.h3`
   font-size: 1.6rem;
-  color: var(--color-dark);
+  color: ${(props) => props.theme.colors.defaultText};
 
   ${ListingBooks.Link}:hover & {
-    color: var(--color-highlight);
+    color: ${(props) => props.theme.colors.highlightText};
+  }
+
+  ${ListingBooks.Link}:focus & {
+    color: var(--color-highlight-dark);
   }
 `;
 
@@ -32,8 +41,13 @@ ListingBooks.Cover = styled.div`
   width: 100%;
   padding-top: 140%;
   position: relative;
-  border: 1px solid var(--color-dark);
+  border: ${(props) => `1px solid ${props.theme.colors.coverBookBorder}`};
   overflow: hidden;
+  background-color: var(--color-white);
+
+  ${ListingBooks.Link}:focus & {
+    outline: 4px solid var(--color-highlight-dark);
+  }
 
   &::after {
     content: '';

@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { useTheme } from '../../contexts/theme';
+import { ThemeProvider } from 'styled-components';
 import * as S from './styles';
 
 const BookDetails = ({ book }) => {
@@ -13,9 +15,10 @@ const BookDetails = ({ book }) => {
     description,
     categories
   } = book;
+  const { theme } = useTheme();
 
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <S.BookDetails.Title>{title}</S.BookDetails.Title>
       <S.BookDetails.Subtitle>{subtitle}</S.BookDetails.Subtitle>
 
@@ -49,7 +52,7 @@ const BookDetails = ({ book }) => {
             : '-'}
         </S.BookDetails.InfoValue>
       </S.BookDetails.Info>
-    </>
+    </ThemeProvider>
   );
 };
 

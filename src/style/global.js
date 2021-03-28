@@ -1,8 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;900&display=swap');
-
   *,
   *::before,
   *::after {
@@ -31,5 +29,8 @@ export const GlobalStyle = createGlobalStyle`
     --color-white: #fff;
     --color-highlight: #17c9ff;
     --color-highlight-dark: #1754ff;
+
+    /** header */
+    --header-height: 85px;
   }
 `;

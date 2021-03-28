@@ -8,20 +8,23 @@ BookDetails.Title = styled.h2`
   margin-bottom: 0;
   line-height: 1.3;
   font-size: 4rem;
+  color: ${(props) => props.theme.colors.defaultText};
 
   ${mediaQuery.tabletDesktop`
     font-size: 6.6rem;
-  `}
+  `};
 `;
 
 BookDetails.Subtitle = styled.h3`
   font-size: 2.6rem;
   font-weight: var(--font-weight-light);
   margin-bottom: 40px;
+  color: ${(props) => props.theme.colors.defaultText};
 `;
 
 BookDetails.Info = styled.dl`
   font-size: 1.6rem;
+  color: ${(props) => props.theme.colors.defaultText};
 `;
 
 BookDetails.InfoKey = styled.dt`

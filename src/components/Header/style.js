@@ -1,8 +1,12 @@
 import styled from 'styled-components';
 
+import { SwitchButton } from '../SwitchButton/style';
+
 export const Header = styled.header`
   background-color: var(--color-dark);
+  border-bottom: 1px solid var(--color-highlight);
   padding: 30px 0;
+  height: var(--header-height);
 `;
 
 Header.Title = styled.h1`
@@ -11,4 +15,10 @@ Header.Title = styled.h1`
   color: var(--color-light);
   line-height: 1;
   font-weight: var(--font-weight-black);
+  display: inline-block;
+`;
+
+Header.SwitchButton = styled(SwitchButton)`
+  float: right;
+  margin-top: -1px;
 `;
