@@ -7,6 +7,7 @@ MainSearch.Title = styled.h2`
   margin: 0 auto 40px;
   text-align: center;
   font-size: 3rem;
+  color: ${(props) => props.theme.colors.defaultText};
 
   ${mediaQuery.tabletDesktop`
     font-size: 6.8rem;
@@ -14,7 +15,7 @@ MainSearch.Title = styled.h2`
     max-width: 780px;
     margin: 0 auto 40px;
     text-align: center;
-  `}
+  `};
 `;
 
 MainSearch.Field = styled.div`
