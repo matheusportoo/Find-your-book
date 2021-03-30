@@ -2,8 +2,8 @@ import axios from 'axios';
 
 export const DEFAULT_OPTIONS = {
   resultsPerPage: 10,
-  baseURLApi: 'https://www.googleapis.com/books/v1',
-  keyApi: 'AIzaSyDmhE5c6N2oOGKAjpLUxSrnV9MTJJVrloI'
+  baseURLApi: process.env.REACT_APP_URL_API,
+  keyApi: process.env.REACT_APP_KEY_API
 };
 
 const API = axios.create({
