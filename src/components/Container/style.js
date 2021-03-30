@@ -2,12 +2,16 @@ import styled from 'styled-components';
 
 import { mediaQuery } from '../../tools';
 
+const GUTTER = '20px';
+
 export const Container = styled.div`
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: ${GUTTER};
+  margin-right: ${GUTTER};
 
   ${mediaQuery.desktop(`
     max-width: 1170px;
     margin: 0 auto;
+    padding-left: ${GUTTER};
+    padding-right: ${GUTTER};
   `)}
 `;

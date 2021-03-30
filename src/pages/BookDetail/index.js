@@ -1,18 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 
-import Header from '../../components/Header';
 import Content from '../../components/Content';
 import BookDetails from '../../components/BookDetails';
 
-import response from '../../data/response.json';
+import ServiceBook from '../../services/books';
 
 const BookDetail = () => {
-  const book = response.items[8];
+  const { bookId } = useParams();
+  const [book, setBook] = useState({});
+  const [isFetchingBook, setIsFetchingBook] = useState(true);
+
+  const hasBook = () => Object.keys(book).length > 0;
+  const fetchBook = () => {
+    ServiceBook.getById(bookId)
+      .then((response) => setBook(response.data))
+      .catch(() => setBook({}))
+      .finally(() => setIsFetchingBook(false));
+  };
+
+  useEffect(() => {
+    if (!hasBook()) {
+      fetchBook();
+    }
+  });
 
   return (
-    <>
-      <Header title="Encontre seu livro" />
-      <Content>
+    <Content>
+      {hasBook() && (
         <BookDetails
           book={{
             title: book.volumeInfo.title,
@@ -24,8 +39,12 @@ const BookDetail = () => {
             categories: book.volumeInfo.categories
           }}
         />
-      </Content>
-    </>
+      )}
+
+      {!hasBook() &&
+        !isFetchingBook &&
+        'Não foi possível buscar o livro que deseja'}
+    </Content>
   );
 };
 

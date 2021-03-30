@@ -38,7 +38,17 @@ const BookDetails = ({ book }) => {
         <S.BookDetails.InfoKey>Quantidade de páginas: </S.BookDetails.InfoKey>
         <S.BookDetails.InfoValue>{totalPages || '-'}</S.BookDetails.InfoValue>
         <S.BookDetails.InfoKey>Descrição:</S.BookDetails.InfoKey>
-        <S.BookDetails.InfoValue> {description || '-'}</S.BookDetails.InfoValue>
+        <S.BookDetails.InfoValue>
+          {description ? (
+            <div
+              dangerouslySetInnerHTML={{
+                __html: description
+              }}
+            ></div>
+          ) : (
+            '-'
+          )}
+        </S.BookDetails.InfoValue>
         <S.BookDetails.InfoKey>Categorias:</S.BookDetails.InfoKey>
         <S.BookDetails.InfoValue>
           {categories

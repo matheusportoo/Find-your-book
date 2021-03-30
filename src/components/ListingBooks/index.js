@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import { useTheme } from '../../contexts/theme';
 import { ThemeProvider } from 'styled-components';
 import * as S from './style';
@@ -13,9 +13,11 @@ const ListingBooks = ({ books }) => {
         {books.map((book) => (
           <S.ListingBooks.Link to={`/books/${book.id}`} key={book.id}>
             <S.ListingBooks.Cover>
-              <S.ListingBooks.CoverImg
-                src={book.volumeInfo.imageLinks.thumbnail}
-              />
+              {book.volumeInfo.imageLinks ? (
+                <S.ListingBooks.CoverImg
+                  src={book.volumeInfo.imageLinks.thumbnail}
+                />
+              ) : null}
             </S.ListingBooks.Cover>
             <S.ListingBooks.Title>{book.volumeInfo.title}</S.ListingBooks.Title>
           </S.ListingBooks.Link>
@@ -23,6 +25,10 @@ const ListingBooks = ({ books }) => {
       </S.ListingBooks>
     </ThemeProvider>
   );
+};
+
+ListingBooks.propTypes = {
+  books: PropTypes.array
 };
 
 export default ListingBooks;
