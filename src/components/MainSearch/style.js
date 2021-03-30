@@ -36,6 +36,11 @@ MainSearch.Input = styled.input`
   border-radius: 0;
   border: 2px solid var(--color-highlight);
 
+  &[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
   &:focus,
   &:hover {
     outline: 4px solid var(--color-highlight-dark);
@@ -56,6 +61,11 @@ MainSearch.SubmitButton = styled.button`
   text-transform: uppercase;
   width: 100%;
   margin-top: 10px;
+
+  &[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 
   &:hover,
   &:focus {

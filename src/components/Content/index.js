@@ -1,8 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { ThemeProvider } from 'styled-components';
 
 import { useTheme } from '../../contexts/theme';
-import { ThemeProvider } from 'styled-components';
+
+import Header from '../Header';
+import Footer from '../Footer';
 import Container from '../Container';
 
 import * as S from './style';
@@ -12,9 +15,11 @@ const Content = ({ children }) => {
 
   return (
     <ThemeProvider theme={theme}>
+      <Header title="Encontre seu livro" />
       <S.Content>
         <Container>{children}</Container>
       </S.Content>
+      <Footer />
     </ThemeProvider>
   );
 };

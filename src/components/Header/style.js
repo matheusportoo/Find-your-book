@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { Link } from 'react-router-dom';
 import { SwitchButton } from '../SwitchButton/style';
 
 export const Header = styled.header`
@@ -7,6 +7,10 @@ export const Header = styled.header`
   border-bottom: 1px solid var(--color-highlight);
   padding: 30px 0;
   height: var(--header-height);
+`;
+
+Header.Link = styled(Link)`
+  text-decoration: none;
 `;
 
 Header.Title = styled.h1`

@@ -8,8 +8,7 @@ const SwitchButton = ({ onClick }) => (
 );
 
 SwitchButton.propTypes = {
-  onClick: PropTypes.func,
-  isOn: PropTypes.bool
+  onClick: PropTypes.func
 };
 
 export default SwitchButton;

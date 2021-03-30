@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { route } from '../../routes/routes';
 import { themes, useTheme } from '../../contexts/theme';
 import Container from '../Container';
 
@@ -16,7 +17,9 @@ const Header = ({ title }) => {
   return (
     <S.Header>
       <Container>
-        <S.Header.Title>{title}</S.Header.Title>
+        <S.Header.Link to={route.home}>
+          <S.Header.Title>{title}</S.Header.Title>
+        </S.Header.Link>
         <S.Header.SwitchButton
           onClick={changeTheme}
           isOn={theme.key === 'dark'}

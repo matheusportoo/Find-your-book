@@ -32,5 +32,8 @@ export const GlobalStyle = createGlobalStyle`
 
     /** header */
     --header-height: 85px;
+
+    /** footer */
+    --footer-height: 50px;
   }
 `;
