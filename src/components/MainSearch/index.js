@@ -1,17 +1,22 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 
 import { useTheme } from '../../contexts/theme';
 import { ThemeProvider } from 'styled-components';
 import * as S from './style';
 
-const MainSearch = ({ onSubmit, isDisabled }) => {
+const MainSearch = ({ onSubmit, isDisabled, term = '' }) => {
   const { theme } = useTheme();
+  const [reserchedTerm, setReserchedTerm] = useState(term);
   const searchField = useRef(null);
 
   const onSubmitForm = (event) => {
     event.preventDefault();
     onSubmit(searchField.current.value);
+  };
+
+  const onInputSearchField = () => {
+    setReserchedTerm(searchField.current.value);
   };
 
   return (
@@ -25,6 +30,8 @@ const MainSearch = ({ onSubmit, isDisabled }) => {
             placeholder="Digite o nome do livro ou autor que você deseja..."
             ref={searchField}
             disabled={isDisabled}
+            value={reserchedTerm}
+            onInput={onInputSearchField}
           />
           <S.MainSearch.SubmitButton
             children="pesquisar"
@@ -38,7 +45,8 @@ const MainSearch = ({ onSubmit, isDisabled }) => {
 
 MainSearch.propTypes = {
   onSubmit: PropTypes.func,
-  isDisabled: PropTypes.bool
+  isDisabled: PropTypes.bool,
+  term: PropTypes.string
 };
 
 export default MainSearch;

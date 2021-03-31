@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { connect } from 'react-redux';
 
+import { ACTIONS } from '../../store/actions';
 import Content from '../../components/Content';
 import ListingBooks from '../../components/ListingBooks';
 import MainSearch from '../../components/MainSearch';
@@ -11,9 +13,9 @@ import usePrevious from '../../hooks/use-previous';
 
 import * as S from './style';
 
-const Home = () => {
+const Home = ({ setTerm, term }) => {
   const [books, setBooks] = useState([]);
-  const [term, setTerm] = useState('');
+
   const [isFetchingTerm, setIsFetchingTerm] = useState(false);
   const [pagination, setPagination] = useState({
     currentPage: 1,
@@ -68,7 +70,7 @@ const Home = () => {
 
   return (
     <Content>
-      <MainSearch onSubmit={setTerm} isDisabled={isFetchingTerm} />
+      <MainSearch onSubmit={setTerm} isDisabled={isFetchingTerm} term={term} />
       <S.Home.ListingBooks>
         <ListingBooks books={books} />
       </S.Home.ListingBooks>
@@ -85,4 +87,18 @@ const Home = () => {
   );
 };
 
-export default Home;
+const mapStateToProps = (state) => {
+  return {
+    term: state.term
+  };
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    setTerm: (term) => {
+      dispatch(ACTIONS.setTerm(term));
+    }
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home);

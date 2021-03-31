@@ -14,7 +14,7 @@ export const SwitchButton = styled.button`
   outline: none;
 
   &:focus {
-    outline: 4px solid var(--color-highlight-dark);
+    background-color: var(--color-highlight-dark);
   }
 
   &::after {

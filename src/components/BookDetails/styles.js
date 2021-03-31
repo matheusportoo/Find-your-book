@@ -3,8 +3,35 @@ import { mediaQuery } from '../../tools';
 
 export const BookDetails = {};
 
+BookDetails.FavoriteBooks = styled.button`
+  background-color: ${(props) =>
+    props.isFavoriteBook ? `var(--color-highlight-dark)` : `transparent`};
+  font-family: var(--font-family-default);
+  border: 1px solid var(--color-highlight);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 15px 18px;
+  color: ${(props) =>
+    props.isFavoriteBook ? `var(--color-light)` : `var(--color-dark)`};
+
+  svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+
+  &:focus {
+    outline: 2px solid var(--color-highlight-dark);
+  }
+
+  ${mediaQuery.mobile`
+    padding: 10px 12px;
+  `}
+`;
+
 BookDetails.Title = styled.h2`
-  margin-top: 0;
+  margin-top: 25px;
   margin-bottom: 0;
   line-height: 1.3;
   font-size: 4rem;
