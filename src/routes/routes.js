@@ -3,7 +3,8 @@ import Pages from '../pages';
 export const route = {
   home: '/',
   books: '/books',
-  bookDetail: '/books/:bookId'
+  bookDetail: '/books/:bookId',
+  favoriteBooks: '/favorite-books'
 };
 
 const Routes = [
@@ -18,6 +19,10 @@ const Routes = [
   {
     path: route.bookDetail,
     component: Pages.BookDetail
+  },
+  {
+    path: route.favoriteBooks,
+    component: Pages.FavoriteBooks
   },
   {
     path: '*',

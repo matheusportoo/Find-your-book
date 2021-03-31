@@ -5,7 +5,7 @@ import { useTheme } from '../../contexts/theme';
 import { ThemeProvider } from 'styled-components';
 import * as S from './styles';
 
-const BookDetails = ({ book }) => {
+const BookDetails = ({ book, onClickFavoriteButton, isFavoriteBook }) => {
   const {
     title,
     subtitle,
@@ -19,6 +19,18 @@ const BookDetails = ({ book }) => {
 
   return (
     <ThemeProvider theme={theme}>
+      <S.BookDetails.FavoriteBooks
+        onClick={onClickFavoriteButton}
+        isFavoriteBook={isFavoriteBook}
+      >
+        <svg>
+          <use xlinkHref="#heart" />
+        </svg>
+        {isFavoriteBook
+          ? 'Adicionado a lista de favoritos'
+          : 'Adicionar a lista de favoritos'}
+      </S.BookDetails.FavoriteBooks>
+
       <S.BookDetails.Title>{title}</S.BookDetails.Title>
       <S.BookDetails.Subtitle>{subtitle}</S.BookDetails.Subtitle>
 
@@ -67,7 +79,9 @@ const BookDetails = ({ book }) => {
 };
 
 BookDetails.propTypes = {
-  book: PropTypes.object
+  book: PropTypes.object,
+  onClickFavoriteButton: PropTypes.func,
+  isFavoriteBook: PropTypes.bool
 };
 
 export default BookDetails;

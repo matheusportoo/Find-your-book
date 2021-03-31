@@ -15,7 +15,7 @@ const Content = ({ children }) => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Header title="Encontre seu livro" />
+      <Header />
       <S.Content>
         <Container>{children}</Container>
       </S.Content>
